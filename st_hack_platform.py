@@ -12,7 +12,11 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 # Firebase configuration from Arduino code
-
+API_KEY = st.secrets["API_KEY"]
+DATABASE_URL = st.secrets["DATABASE_URL"]
+DATA_PATH = "/sensor_readings"
+DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]  # Replace with your actual key
+DEEPSEEK_API_URL = st.secrets["DEEPSEEK_API_URL"]
 
 
 
