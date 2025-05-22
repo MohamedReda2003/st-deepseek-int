@@ -25,7 +25,7 @@ FIREBASE_REST_URL = f"{DATABASE_URL}{DATA_PATH}.json?auth={API_KEY}"
 
 # Streamlit configuration
 st.set_page_config(
-    page_title="Smart Irrigation Dashboard",
+    page_title="Smart Rainfall Monitor Dashboard",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="expanded"
