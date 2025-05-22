@@ -12,11 +12,11 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 # Firebase configuration from Arduino code
-API_KEY = "AIzaSyAeKq119GfPpmU8P9oRe1G-WoSicYX32TM"
-DATABASE_URL = "https://amanrain-80d89-default-rtdb.firebaseio.com/"
+API_KEY = "API_KEY"
+DATABASE_URL = "DATABASE_URL"
 DATA_PATH = "/sensor_readings"
-DEEPSEEK_API_KEY = "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"  # Replace with your actual key
-DEEPSEEK_API_URL = "https://openrouter.ai/api/v1"
+DEEPSEEK_API_KEY = "DEEPSEEK_API_KEY" # Replace with your actual key
+DEEPSEEK_API_URL = "DEEPSEEK_API_URL"
 
 
 
