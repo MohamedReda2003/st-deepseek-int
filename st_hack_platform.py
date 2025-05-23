@@ -15,7 +15,7 @@ from langchain.chains import LLMChain
 API_KEY = st.secrets["API_KEY"]
 DATABASE_URL = st.secrets["DATABASE_URL"]
 DATA_PATH = "/sensor_readings"
-DEEPSEEK_API_KEY = "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"  # Replace with your actual key
+DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]  # Replace with your actual key
 DEEPSEEK_API_URL = st.secrets["DEEPSEEK_API_URL"]
 
 
